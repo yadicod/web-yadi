@@ -21,7 +21,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /var/www/static-site/web-yadi
+            cd /home/yuliadi/static-web/web-yadi
 
             echo "Pulling latest version..."
             git pull origin main
